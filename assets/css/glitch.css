@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/samarkan');
+
+.content{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.content .text {
+    color: #fff;
+    font-weight: 700;
+    font-size: clamp(2rem,4vw + 1rem ,5.5rem) !important;;
+    font-family: "Samarkan";
+    text-transform: uppercase;
+    transform: scale(2);
+    letter-spacing: 2px;
+    padding:20px ;
+}
