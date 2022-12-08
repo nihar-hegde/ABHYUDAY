@@ -16,10 +16,16 @@
 .content .text {
     color: #fff;
     font-weight: 700;
-    font-size: clamp(2rem,4vw + 1rem ,5.5rem) !important;;
+    font-size: 5rem;
     font-family: "Samarkan";
     text-transform: uppercase;
     transform: scale(2);
     letter-spacing: 1px;
-    padding:20px ;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+@media (max-width : 480px){
+    .content .text{
+        font-size: 2.5rem;
+    }
 }

@@ -9,6 +9,9 @@
     color: #ffffff;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
  #countdown h1 {

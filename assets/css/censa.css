@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+:root {
+  --cd-color-light-dark: #201c2b;
+  --cd-color-dark: #14121c;
+  --cd-color-white: #ffffff;
+  --cd-color-blue: #47cdee;
+  --cd-color-purple: #520bad;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:focus{
+  box-shadow:none !important;
+}
+html {
+  overflow: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+body {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "inter";
+  color: #ffffff;
+  background-color: #14121c;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+}
+
+
+
+/*global design*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.rounded-10 {
+  border-radius: 10px;
+}
+.card {
+    background-color: var(--cd-color-light-dark);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+
+  }
+
+  .cd-8 .badge {
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  font-weight: 500;
+}
