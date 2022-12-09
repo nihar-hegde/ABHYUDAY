@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	background-color: #000;
+}
+
+.container {
+	background-image: url("/assets/images/DJPOSTER.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;
+	aspect-ratio: 10/16;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.container2 {
+	background-image: url("/assets/images/djentry.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 300px;
+	aspect-ratio: 15/6;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
