@@ -83,7 +83,7 @@ smoothScroll.init();
         const now = new Date().getTime(),
           distance = countDown - now;
   
-        (document.getElementById("days").innerText = Math.floor(distance / day)),
+        
           (document.getElementById("hours").innerText = Math.floor(
             (distance % day) / hour
           )),
